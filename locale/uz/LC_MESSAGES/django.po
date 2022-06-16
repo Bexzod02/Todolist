@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-08 16:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\config\settings.py:132
+msgid "English"
+msgstr ""
+
+#: .\config\settings.py:133
+msgid "Uzbek"
+msgstr ""
+
+#: .\config\settings.py:134
+msgid "Russian"
+msgstr ""
+
+#: .\templates\base.html:17
+msgid "Language"
+msgstr ""
+
+#: .\templates\navbar.html:11
+msgid "Home"
+msgstr "uy"
+
+#: .\templates\navbar.html:14
+msgid "Add new item"
+msgstr "Yangi item qo'shish"
+
+#: .\todoapp\models.py:9
+msgid "New"
+msgstr "Yangi"
+
+#: .\todoapp\models.py:10
+msgid "Process"
+msgstr "Amalda"
+
+#: .\todoapp\models.py:11
+msgid "Complated"
+msgstr "Tugallangan"
+
+#: .\todoapp\models.py:12
+msgid "Cancelled"
+msgstr "Bekor qilingan"

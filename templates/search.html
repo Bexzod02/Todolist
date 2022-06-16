@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+        <h1 style = 'text-align:center'>"Searched list elemts"</h1>
+        <div class="card mt-10" >
+            {% for obj in object  %}
+            <div class="card-header"><b>
+                {{ obj.get_status_display }}</b>last_uptudate:{{ obj.update_at }}
+            </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ obj.title }}</h5>
+                    <p class="card-text">{{ obj.content }}</p>
+                    <a href="/edit/{{obj.id}}" class="btn btn-primary">Edit</a>
+                    <a href="/delete/{{obj.id}}" class="btn btn-danger">Delete</a>
+                </div>
+            <div class="card-footer text-muted">
+                {{ obj.created_at }}
+            </div>
+            {% endfor %}
+        </div>
+{% endblock content %}
+

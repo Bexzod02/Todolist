@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form method="post">
+    {% csrf_token %}
+        {{ form.as_p }}
+        <div class="d-grid gap-2">
+            <button style = "margin-top:10px ", class="btn btn-primary", type="submit" >Save</button>
+        </div>
+    </form>
+{% endblock %}
